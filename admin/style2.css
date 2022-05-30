@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+  input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  .container {
+    padding: 16px;
+  }
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  } 
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  
+  body {
+      background-color: #f9f9fa
+  }
+  
+  .padding {
+      padding: 6rem !important
+  }
+  
+  .user-card-full {
+      overflow: hidden
+  }
+  
+  .card {
+      border-radius: 5px;
+      -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+      box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+      border: none;
+      margin-bottom: 30px
+  }
+  
+  .m-r-0 {
+      margin-right: 0px
+  }
+  
+  .m-l-0 {
+      margin-left: 0px
+  }
+  
+  .user-card-full .user-profile {
+      border-radius: 5px 0 0 5px
+  }
+  
+  .bg-c-lite-green {
+      background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+      background: linear-gradient(to right, #ee5a6f, #f29263)
+  }
+  
+  .user-profile {
+      padding: 20px 0
+  }
+  
+  .card-block {
+      padding: 1.25rem
+  }
+  
+  .m-b-25 {
+      margin-bottom: 25px
+  }
+  
+  .img-radius {
+      border-radius: 5px
+  }
+  
+  h6 {
+      font-size: 14px
+  }
+  
+  .card .card-block p {
+      line-height: 25px
+  }
+  
+  @media only screen and (min-width: 1400px) {
+      p {
+          font-size: 14px
+      }
+  }
+  
+  .card-block {
+      padding: 1.25rem
+  }
+  
+  .b-b-default {
+      border-bottom: 1px solid #e0e0e0
+  }
+  
+  .m-b-20 {
+      margin-bottom: 20px
+  }
+  
+  .p-b-5 {
+      padding-bottom: 5px !important
+  }
+  
+  .card .card-block p {
+      line-height: 25px
+  }
+  
+  .m-b-10 {
+      margin-bottom: 10px
+  }
+  
+  .text-muted {
+      color: #919aa3 !important
+  }
+  
+  .b-b-default {
+      border-bottom: 1px solid #e0e0e0
+  }
+  
+  .f-w-600 {
+      font-weight: 600
+  }
+  
+  .m-b-20 {
+      margin-bottom: 20px
+  }
+  
+  .m-t-40 {
+      margin-top: 20px
+  }
+  
+  .p-b-5 {
+      padding-bottom: 5px !important
+  }
+  
+  .m-b-10 {
+      margin-bottom: 10px
+  }
+  
+  .m-t-40 {
+      margin-top: 20px
+  }
+  
+  .user-card-full .social-link li {
+      display: inline-block
+  }
+  
+  .user-card-full .social-link li a {
+      font-size: 20px;
+      margin: 0 10px 0 0;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out
+  }
+  
+  
+  
+  
+  
+  #registration-form {
+    font-family:'Open Sans Condensed', sans-serif;
+    width: 400px;
+    min-width:250px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  #registration-form .fieldset {
+    background-color:#f1d7eb;
+  
+    border-radius: 3px;
+    
+  }
+  
+   #registration-form legend {
+    text-align: center;
+    background: #b1035a;
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 3px 3px 0 0;
+    color: white;
+  font-size:2em;
+
+  }
+  
+  .fieldset form{
+    border:1px solid #2f2f2f;
+    margin:0 auto;
+    display:block;
+    width:100%;
+    padding:30px 20px;
+    box-sizing:border-box;
+    border-radius:0 0 3px 3px;
+  }
+  .placeholder #registration-form label {
+    display: none;
+  }
+   .no-placeholder #registration-form label{
+  margin-left:5px;
+    position:relative;
+    display:block;
+    color:grey;
+    text-shadow:0 1px white;
+    font-weight:bold;
+  }
+  /* all */
+  ::-webkit-input-placeholder { text-shadow:1px 1px 1px white; font-weight:bold; }
+  ::-moz-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* firefox 19+ */
+  :-ms-input-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* ie */
+  #registration-form input[type=text],#registration-form input[type=file] {
+    padding: 15px 20px;
+    border-radius: 1px;
+    margin:5px auto;
+    background-color:#fdf9f9;
+    /*border: 1px solid silver;*/
+    border-radius: 20px;
+  
+    -webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+    width: 100%;
+  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition:background-color .5s ease;
+  -moz-transition:background-color .5s ease;
+  -o-transition:background-color .5s ease;
+  -ms-transition:background-color .5s ease;
+  transition:background-color .5s ease;
+  }
+  .no-placeholder #registration-form input[type=text] {
+    padding: 10px 20px;
+  }
+  
+  #registration-form input[type=text]:active, .placeholder #registration-form input[type=text]:focus {
+    outline: none;
+    border-color: silver;
+    background-color:white;
+    border-radius: 20px;
+  }
+  
+  #registration-form input[type=submit] {
+    font-family:'Open Sans Condensed', sans-serif;
+    text-transform:uppercase;
+    outline:none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #6bec5f;
+    padding: 10px;
+    color: white;
+   border: 1px solid #3498db;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+    position:relative;
+    top:0;
+    border-radius: 20px;
+  }
+  
+  #registration-form input[type=submit]:hover {
+    background-color: #10b9ec;
+  }
+  
+  #registration-form input[type=submit]:active {
+  background:#5eee71;
+  }
+  
+  
+  .parsley-error-list{
+  background-color:#C34343;
+  padding: 5px 11px;
+  margin: 0;
+  list-style: none;
+  /*border-radius: 0 0 3px 3px;*/
+  border-radius: 20px;
+  margin-top:-5px;
+    margin-bottom:5px;
+    color:white;
+    border:1px solid #870d0d;
+    border-top:none;
+      -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;
+    top:-1px;
+    text-shadow:0px 1px 1px #460909;
+      font-weight:700;
+    font-size:12px;
+  }
+  .parsley-error{
+    border-color:#870d0d!important;
+    border-bottom:none;
+  }
+  #registration-form select{
+    width:100%;
+    padding:5px;
+  }
+  ::-moz-focus-inner {
+    border: 0;
+  }
